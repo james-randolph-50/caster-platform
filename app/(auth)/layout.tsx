@@ -9,7 +9,7 @@ export default function RootLayout({
     return (
           <main className="relative h-screen w-full">
             <div className="absolute size-full">
-              <Image src="/images/bg-img.png" alt="background" full className="size-full" />
+              <Image src="/images/bg-img.png" width="300" height="300" alt="background" full className="size-full" />
             </div> 
               {children} 
           </main>
